@@ -5,8 +5,9 @@ import 'package:widget_app/config/menu/menu_items.dart';
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
+  static const String routeName = 'home_screen';
+
   @override
-  // TODO: implement key
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Material 3')),
@@ -46,6 +47,7 @@ class _CustomListTitle extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subTitle),
       onTap: () {
+        // context.pushNamed(CardScreen.routeName);
         context.push(menuItem.link);
       },
     );
