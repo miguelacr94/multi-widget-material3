@@ -28,4 +28,34 @@ const appMenuItems = <MenuItem>[
     link: '/cards',
     icon: Icons.credit_card,
   ),
+  MenuItem(
+    title: 'Animados',
+    subTitle: 'Elementos animados',
+    link: '/animated',
+    icon: Icons.animation,
+  ),
+  MenuItem(
+    title: 'App Tutorial',
+    subTitle: 'Tutorial de la app',
+    link: '/app-tutorial',
+    icon: Icons.video_call,
+  ),
+  MenuItem(
+    title: 'Progress',
+    subTitle: 'Barra de progreso',
+    link: '/progress',
+    icon: Icons.bar_chart,
+  ),
+  MenuItem(
+    title: 'Snackbar',
+    subTitle: 'Mostrar mensaje',
+    link: '/snackbar',
+    icon: Icons.info_outline,
+  ),
+  MenuItem(
+    title: 'UI Controls',
+    subTitle: 'Elementos de UI',
+    link: '/ui-controls',
+    icon: Icons.settings,
+  ),
 ];
