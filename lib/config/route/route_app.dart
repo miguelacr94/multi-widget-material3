@@ -44,5 +44,20 @@ final appRouter = GoRouter(
       name: UiControls.routeName,
       builder: (context, state) => UiControls(),
     ),
+    GoRoute(
+      path: '/infinite-scroll',
+      name: InfiniteScroll.routeName,
+      builder: (context, state) => InfiniteScroll(),
+    ),
+    GoRoute(
+      path: '/counter',
+      name: CounterScreen.routeName,
+      builder: (context, state) => CounterScreen(),
+    ),
+    GoRoute(
+      path: '/theme-change',
+      name: ThemeChangeScreen.routeName,
+      builder: (context, state) => ThemeChangeScreen(),
+    ),
   ],
 );

@@ -4,8 +4,10 @@ const colorList = <Color>[Colors.blue, Colors.teal, Colors.green, Colors.pink];
 
 class AppTheme {
   final int selectedColor;
+  final bool isDarkMode;
 
-  AppTheme({this.selectedColor = 2})
+
+  AppTheme({this.selectedColor = 2, this.isDarkMode = false})
     : assert(
         selectedColor >= 0 && selectedColor < colorList.length,
         'El seleccionador de color debe estar entre 0 y ${colorList.length - 1}',
@@ -16,6 +18,7 @@ class AppTheme {
       );
   ThemeData getTheme() => ThemeData(
     useMaterial3: true,
+    brightness: isDarkMode ? Brightness.dark : Brightness.light,
     colorSchemeSeed: colorList[selectedColor],
     appBarTheme: AppBarTheme(centerTitle: false),
   );

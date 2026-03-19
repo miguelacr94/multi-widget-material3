@@ -6,5 +6,10 @@ export 'package:widget_app/presentations/screens/app_tutorial/app_tutorial.dart'
 export 'package:widget_app/presentations/screens/progress/progress_screen.dart';
 export 'package:widget_app/presentations/screens/snackbar/snackbar_screen.dart';
 export 'package:widget_app/presentations/screens/ui_controls/ui_controls.dart';
+export 'package:widget_app/presentations/screens/infinite_scroll/infinite_scroll.dart';
+export 'package:widget_app/presentations/screens/counter/counter_screen.dart';
+export 'package:widget_app/presentations/screens/theme_change/theme_change_screen.dart';
+
+
 
   

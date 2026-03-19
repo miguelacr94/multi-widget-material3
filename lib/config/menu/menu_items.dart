@@ -41,6 +41,12 @@ const appMenuItems = <MenuItem>[
     icon: Icons.video_call,
   ),
   MenuItem(
+    title: 'Infinite Scroll',
+    subTitle: 'Carga de datos infinita',
+    link: '/infinite-scroll',
+    icon: Icons.circle,
+  ),
+  MenuItem(
     title: 'Progress',
     subTitle: 'Barra de progreso',
     link: '/progress',
@@ -57,5 +63,17 @@ const appMenuItems = <MenuItem>[
     subTitle: 'Elementos de UI',
     link: '/ui-controls',
     icon: Icons.settings,
+  ),
+  MenuItem(
+    title: 'Counter',
+    subTitle: 'Contador',
+    link: '/counter',
+    icon: Icons.add_circle,
+  ),
+  MenuItem(
+    title: 'Theme Change',
+    subTitle: 'Cambiar tema',
+    link: '/theme-change',
+    icon: Icons.palette,
   ),
 ];
